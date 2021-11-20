@@ -13,6 +13,27 @@
 		BD05A1592748A089003224A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD05A1572748A089003224A9 /* Main.storyboard */; };
 		BD05A15B2748A08A003224A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD05A15A2748A08A003224A9 /* Assets.xcassets */; };
 		BD05A15E2748A08A003224A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD05A15C2748A08A003224A9 /* LaunchScreen.storyboard */; };
+		BD05A16D2748A35B003224A9 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1672748A35B003224A9 /* SearchPresenter.swift */; };
+		BD05A16E2748A35B003224A9 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1682748A35B003224A9 /* SearchRouter.swift */; };
+		BD05A16F2748A35B003224A9 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1692748A35B003224A9 /* SearchModels.swift */; };
+		BD05A1702748A35B003224A9 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A16A2748A35B003224A9 /* SearchInteractor.swift */; };
+		BD05A1712748A35B003224A9 /* SearchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A16B2748A35B003224A9 /* SearchProtocol.swift */; };
+		BD05A1722748A35B003224A9 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A16C2748A35B003224A9 /* SearchVC.swift */; };
+		BD05A1752748A447003224A9 /* Configureable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1742748A447003224A9 /* Configureable.swift */; };
+		BD05A1782748A86E003224A9 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1772748A86E003224A9 /* UserTableViewCell.swift */; };
+		BD05A17A2748B091003224A9 /* Extension + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1792748B091003224A9 /* Extension + UIImageView.swift */; };
+		BD05A1822748BD8F003224A9 /* MyUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A17C2748BD8F003224A9 /* MyUserPresenter.swift */; };
+		BD05A1832748BD8F003224A9 /* MyUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A17D2748BD8F003224A9 /* MyUserRouter.swift */; };
+		BD05A1842748BD8F003224A9 /* MyUserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A17E2748BD8F003224A9 /* MyUserModels.swift */; };
+		BD05A1852748BD8F003224A9 /* MyUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A17F2748BD8F003224A9 /* MyUserInteractor.swift */; };
+		BD05A1862748BD8F003224A9 /* MyUserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1802748BD8F003224A9 /* MyUserProtocol.swift */; };
+		BD05A1872748BD8F003224A9 /* MyUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1812748BD8F003224A9 /* MyUserVC.swift */; };
+		BD05A18F2748C380003224A9 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A1892748C380003224A9 /* UserDetailsPresenter.swift */; };
+		BD05A1902748C380003224A9 /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A18A2748C380003224A9 /* UserDetailsRouter.swift */; };
+		BD05A1912748C380003224A9 /* UserDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A18B2748C380003224A9 /* UserDetailsModels.swift */; };
+		BD05A1922748C380003224A9 /* UserDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A18C2748C380003224A9 /* UserDetailsInteractor.swift */; };
+		BD05A1932748C380003224A9 /* UserDetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A18D2748C380003224A9 /* UserDetailsProtocol.swift */; };
+		BD05A1942748C380003224A9 /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05A18E2748C380003224A9 /* UserDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +45,27 @@
 		BD05A15A2748A08A003224A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD05A15D2748A08A003224A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD05A15F2748A08A003224A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD05A1672748A35B003224A9 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		BD05A1682748A35B003224A9 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		BD05A1692748A35B003224A9 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		BD05A16A2748A35B003224A9 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		BD05A16B2748A35B003224A9 /* SearchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProtocol.swift; sourceTree = "<group>"; };
+		BD05A16C2748A35B003224A9 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BD05A1742748A447003224A9 /* Configureable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configureable.swift; sourceTree = "<group>"; };
+		BD05A1772748A86E003224A9 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		BD05A1792748B091003224A9 /* Extension + UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImageView.swift"; sourceTree = "<group>"; };
+		BD05A17C2748BD8F003224A9 /* MyUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserPresenter.swift; sourceTree = "<group>"; };
+		BD05A17D2748BD8F003224A9 /* MyUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserRouter.swift; sourceTree = "<group>"; };
+		BD05A17E2748BD8F003224A9 /* MyUserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserModels.swift; sourceTree = "<group>"; };
+		BD05A17F2748BD8F003224A9 /* MyUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserInteractor.swift; sourceTree = "<group>"; };
+		BD05A1802748BD8F003224A9 /* MyUserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserProtocol.swift; sourceTree = "<group>"; };
+		BD05A1812748BD8F003224A9 /* MyUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserVC.swift; sourceTree = "<group>"; };
+		BD05A1892748C380003224A9 /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
+		BD05A18A2748C380003224A9 /* UserDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsRouter.swift; sourceTree = "<group>"; };
+		BD05A18B2748C380003224A9 /* UserDetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsModels.swift; sourceTree = "<group>"; };
+		BD05A18C2748C380003224A9 /* UserDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsInteractor.swift; sourceTree = "<group>"; };
+		BD05A18D2748C380003224A9 /* UserDetailsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsProtocol.swift; sourceTree = "<group>"; };
+		BD05A18E2748C380003224A9 /* UserDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 		BD05A1502748A089003224A9 /* github-search-user */ = {
 			isa = PBXGroup;
 			children = (
+				BD05A1732748A43B003224A9 /* Extensions */,
+				BD05A1652748A326003224A9 /* Modules */,
 				BD05A1512748A089003224A9 /* AppDelegate.swift */,
 				BD05A1532748A089003224A9 /* SceneDelegate.swift */,
 				BD05A1552748A089003224A9 /* ViewController.swift */,
@@ -65,6 +109,73 @@
 				BD05A15F2748A08A003224A9 /* Info.plist */,
 			);
 			path = "github-search-user";
+			sourceTree = "<group>";
+		};
+		BD05A1652748A326003224A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A1882748C36F003224A9 /* UserDetails */,
+				BD05A17B2748BD77003224A9 /* MyUser */,
+				BD05A1662748A34C003224A9 /* Search */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BD05A1662748A34C003224A9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A1762748A85C003224A9 /* Views */,
+				BD05A1672748A35B003224A9 /* SearchPresenter.swift */,
+				BD05A1682748A35B003224A9 /* SearchRouter.swift */,
+				BD05A1692748A35B003224A9 /* SearchModels.swift */,
+				BD05A16A2748A35B003224A9 /* SearchInteractor.swift */,
+				BD05A16B2748A35B003224A9 /* SearchProtocol.swift */,
+				BD05A16C2748A35B003224A9 /* SearchVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BD05A1732748A43B003224A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A1742748A447003224A9 /* Configureable.swift */,
+				BD05A1792748B091003224A9 /* Extension + UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BD05A1762748A85C003224A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A1772748A86E003224A9 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD05A17B2748BD77003224A9 /* MyUser */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A17C2748BD8F003224A9 /* MyUserPresenter.swift */,
+				BD05A17D2748BD8F003224A9 /* MyUserRouter.swift */,
+				BD05A17E2748BD8F003224A9 /* MyUserModels.swift */,
+				BD05A17F2748BD8F003224A9 /* MyUserInteractor.swift */,
+				BD05A1802748BD8F003224A9 /* MyUserProtocol.swift */,
+				BD05A1812748BD8F003224A9 /* MyUserVC.swift */,
+			);
+			path = MyUser;
+			sourceTree = "<group>";
+		};
+		BD05A1882748C36F003224A9 /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BD05A1892748C380003224A9 /* UserDetailsPresenter.swift */,
+				BD05A18A2748C380003224A9 /* UserDetailsRouter.swift */,
+				BD05A18B2748C380003224A9 /* UserDetailsModels.swift */,
+				BD05A18C2748C380003224A9 /* UserDetailsInteractor.swift */,
+				BD05A18D2748C380003224A9 /* UserDetailsProtocol.swift */,
+				BD05A18E2748C380003224A9 /* UserDetailsVC.swift */,
+			);
+			path = UserDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +250,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD05A1562748A089003224A9 /* ViewController.swift in Sources */,
+				BD05A1852748BD8F003224A9 /* MyUserInteractor.swift in Sources */,
+				BD05A1832748BD8F003224A9 /* MyUserRouter.swift in Sources */,
+				BD05A16E2748A35B003224A9 /* SearchRouter.swift in Sources */,
+				BD05A1782748A86E003224A9 /* UserTableViewCell.swift in Sources */,
+				BD05A1872748BD8F003224A9 /* MyUserVC.swift in Sources */,
+				BD05A1752748A447003224A9 /* Configureable.swift in Sources */,
 				BD05A1522748A089003224A9 /* AppDelegate.swift in Sources */,
+				BD05A1902748C380003224A9 /* UserDetailsRouter.swift in Sources */,
+				BD05A1822748BD8F003224A9 /* MyUserPresenter.swift in Sources */,
+				BD05A1932748C380003224A9 /* UserDetailsProtocol.swift in Sources */,
+				BD05A1722748A35B003224A9 /* SearchVC.swift in Sources */,
+				BD05A1942748C380003224A9 /* UserDetailsVC.swift in Sources */,
+				BD05A16D2748A35B003224A9 /* SearchPresenter.swift in Sources */,
+				BD05A1912748C380003224A9 /* UserDetailsModels.swift in Sources */,
+				BD05A1862748BD8F003224A9 /* MyUserProtocol.swift in Sources */,
+				BD05A1922748C380003224A9 /* UserDetailsInteractor.swift in Sources */,
+				BD05A1842748BD8F003224A9 /* MyUserModels.swift in Sources */,
 				BD05A1542748A089003224A9 /* SceneDelegate.swift in Sources */,
+				BD05A17A2748B091003224A9 /* Extension + UIImageView.swift in Sources */,
+				BD05A18F2748C380003224A9 /* UserDetailsPresenter.swift in Sources */,
+				BD05A16F2748A35B003224A9 /* SearchModels.swift in Sources */,
+				BD05A1702748A35B003224A9 /* SearchInteractor.swift in Sources */,
+				BD05A1712748A35B003224A9 /* SearchProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +426,6 @@
 				INFOPLIST_FILE = "github-search-user/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +453,6 @@
 				INFOPLIST_FILE = "github-search-user/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
